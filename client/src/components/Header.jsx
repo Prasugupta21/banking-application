@@ -127,7 +127,7 @@ const Header = () => {
           
                 
          {currUser ? <DropdownMenu currUser={currUser}  />:(
-            <button className="bg-gradient-to-r from-[purple] to-[#f01027] rounded-full py-2 px-5 hover:bg-yellow-800" onClick={()=>navigate('/login')}>
+            <button className="bg-gradient-to-r md:mr-8 mr-4 from-[purple] to-[#f01027] rounded-full py-2 px-5 hover:bg-yellow-800" onClick={()=>navigate('/login')}>
                
               Login</button>
          )}
